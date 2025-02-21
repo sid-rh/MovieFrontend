@@ -34,12 +34,3 @@ Username: naval.ravikant
 Password: 05111974
 ```
 
-
-
-## Features
-
-- **Authentication**: Secure login system
-- **Movie Browsing**: Search and filter through available movies
-- **Ticket Booking**: Select movie, date, time, and number of tickets
-- **Booking History**: View all past bookings
-- **Persistent State**: All data persists through page refreshes
