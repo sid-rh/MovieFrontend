@@ -13,11 +13,6 @@ A React-based movie ticket booking application with authentication, movie listin
 
 ## Getting Started
 
-### Prerequisites
-
-- Node.js (v14 or higher)
-- npm (v6 or higher)
-
 ### Installation
 
 1. Install dependencies:
