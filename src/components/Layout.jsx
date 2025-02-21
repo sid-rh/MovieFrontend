@@ -45,12 +45,25 @@ const Header = styled.div`
   justify-content: flex-end;
   padding: 20px;
   align-items: center;
+  gap: 20px;
 `;
 
 const UserInfo = styled.div`
   display: flex;
   align-items: center;
   gap: 10px;
+`;
+
+const LogoutButton = styled.button`
+  background: black;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  &:hover {
+    background: #333;
+  }
 `;
 
 export default function Layout({ children }) {
@@ -81,6 +94,9 @@ export default function Layout({ children }) {
           <UserInfo>
             👤 Naval Ravikant
           </UserInfo>
+          <LogoutButton onClick={handleLogout}>
+            Logout
+          </LogoutButton>
         </Header>
         {children}
       </MainContent>
